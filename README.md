@@ -4,7 +4,15 @@ A PyTorch implementation of Denoising Diffusion Probabilistic Models (DDPM) base
 
 ## Overview
 
-This repository contains a complete implementation of DDPM for image generation. The model learns to generate images by learning to reverse a gradual noising process.
+This repository contains a complete implementation of DDPM for image generation. The model learns to generate images by learning to reverse a gradual noising process.This project implements the DDPM algorithm as described in the paper "Denoising Diffusion Probabilistic Models" by Ho et al. The implementation features a modular design with separate components for the U-Net architecture, diffusion process, training utilities, and evaluation tools.
+Features
+
+Modular Architecture: Clean separation of concerns with dedicated modules for model, training, data handling, and utilities
+Flexible U-Net: Configurable U-Net architecture with attention mechanisms
+Multiple Noise Schedules: Support for linear and cosine noise scheduling
+Comprehensive Testing: Full test suite covering model components and diffusion process
+Visualization Tools: Built-in utilities for visualizing training progress and generated samples
+Easy Configuration: YAML-based configuration system
 
 ## Project Structure
 
